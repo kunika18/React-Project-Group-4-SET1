@@ -1,1 +1,64 @@
-
+.custom-navbar {
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .welcome-message {
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .bell-icon {
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+  
+  .bell-icon:hover {
+    transform: scale(1.2);
+    color: #ffea00;
+  }
+  
+  .logout-button {
+    background: linear-gradient(45deg, #dc3545, #ff6f61);
+    border: none;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logout-button:hover {
+    background: linear-gradient(45deg, #ff6f61, #dc3545);
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .welcome-message {
+      font-size: 1.5rem;
+    }
+  
+    .bell-icon {
+      margin-right: 0.5rem;
+    }
+  }
+  
