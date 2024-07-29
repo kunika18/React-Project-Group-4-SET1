@@ -26,8 +26,8 @@ export const Signup =()=> {
           <input type="text" name="username" />
         </label>
         <label>
-          Email
-          <input type="text" name="email" />
+          No
+          <input type="text" name="email" placeholder="email" />
         </label>
 
         <label>
