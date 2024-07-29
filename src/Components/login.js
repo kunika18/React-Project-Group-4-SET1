@@ -35,7 +35,7 @@ export const Login = () => {
         </div>
         <button type="submit">Login</button>
       </form>
-      <h4 id="pink">Not a user? Click here <button type="button" onClick={handleSignUp}>Sign up</button></h4>
+      <h5 id="pink">Not a user? Click here <button type="button" onClick={handleSignUp}>Sign up</button></h5>
       <ToastContainer />
     </div>
   );
