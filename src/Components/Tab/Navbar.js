@@ -13,7 +13,7 @@ const NavBar = ({ userName, onLogout }) => {
             WELCOME, Sir {userName}
           </Navbar.Brand>
         </Nav>
-        <Nav className="ml-auto d-flex align-items-center">
+        <Nav className="ml-auto d-flex align-items">
           <Nav.Link href="#" className="bell-icon">
             <FaBell />
           </Nav.Link>
