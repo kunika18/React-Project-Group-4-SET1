@@ -1,3 +1,12 @@
+body {
+  background-image: url('https://wallpaperset.com/w/full/7/5/a/545589.jpg');
+  background-size: cover; /* This will make sure the image covers the entire background */
+  background-position: center; /* This will center the image */
+  background-repeat: no-repeat; /* This will prevent the image from repeating */
+  height: 100vh; /* This will ensure the background covers the full viewport height */
+  margin: 0; /* This will remove any default margin */
+}
+
 
 .container {
   display: flex;
