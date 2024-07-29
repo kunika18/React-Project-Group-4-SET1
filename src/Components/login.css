@@ -6,6 +6,14 @@
   background-repeat: no-repeat;
   background-position: center;
 } */
+body {
+  background-image: url('https://wallpapers.com/images/hd/yellow-and-blue-background-bqfg6r5bom6fxrvm.jpg');
+  background-size: cover; /* This will make sure the image covers the entire background */
+  background-position: center; /* This will center the image */
+  background-repeat: no-repeat; /* This will prevent the image from repeating */
+  height: 100vh; /* This will ensure the background covers the full viewport height */
+  margin: 0; /* This will remove any default margin */
+}
 
 .main {
     display: flex;
