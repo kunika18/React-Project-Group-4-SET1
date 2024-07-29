@@ -10,7 +10,7 @@ const NavBar = ({ userName, onLogout }) => {
       <Container fluid className="nav-container">
         <Nav className="welcome-nav mx-auto">
           <Navbar.Brand href="#" className="welcome-message">
-            WELCOME, {userName}
+            WELCOME, Sir {userName}
           </Navbar.Brand>
         </Nav>
         <Nav className="ml-auto d-flex align-items-center">

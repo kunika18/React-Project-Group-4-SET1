@@ -2,3 +2,6 @@
 .nav-pills li a:hover {
     background-color: rgb(6, 6, 124)
 }
+.container-fluid{
+    width: 750px;
+}

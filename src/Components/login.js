@@ -12,6 +12,9 @@ export const Login = () => {
     e.preventDefault();
     // Handle form submission logic here
     notify();
+    setTimeout(() => {
+      navigate('/dashboard'); // Navigate to dashboard
+    }, 2000); // Delay navigation to allow the toast notification to be seen
   };
 
   const handleSignUp = () => {
@@ -32,7 +35,7 @@ export const Login = () => {
         </div>
         <button type="submit">Login</button>
       </form>
-      <h4 id= "pink">Not a user? click here <button type="button" onClick={handleSignUp}>Sign up</button></h4>
+      <h4 id="pink">Not a user? Click here <button type="button" onClick={handleSignUp}>Sign up</button></h4>
       <ToastContainer />
     </div>
   );

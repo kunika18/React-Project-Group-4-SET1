@@ -1,21 +1,17 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Login } from './Components/login';
-<<<<<<< HEAD
-import {sidebar} from './Components/Sidebar/sidebar';
-=======
-import {Signup }  from './Components/signup';
+import { Signup } from './Components/signup';  // Import Signup from remote branches
 
->>>>>>> origin/lavanya
+import Dashboard from './dashboard/Dashboard';
+
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
-<<<<<<< HEAD
-         <Route path="/" element={<sidebar />} />
-=======
-         <Route path="/signup" element = {<Signup />} />
->>>>>>> origin/lavanya
+        <Route path="/signup" element={<Signup />} />  
+        <Route path="/Dashboard" element={<Dashboard />} /> 
+
       </Routes>
     </Router>
   );

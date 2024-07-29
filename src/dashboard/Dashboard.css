@@ -1,0 +1,51 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dashboard-content {
+  display: flex;
+  flex: 1;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex; /* Add this */
+  justify-content: center; /* Add this */
+  align-items: center; /* Add this to center vertically */
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+  height: 100vh;
+  position: fixed;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-message {
+  font-size: 1.5rem;
+}
+
+.bell-icon {
+  font-size: 1.5rem;
+}
+
+.logout-button {
+  margin-left: 10px;
+}
