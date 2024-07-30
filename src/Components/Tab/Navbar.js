@@ -10,8 +10,7 @@ const NavBar = ({ userName, onLogout }) => {
 
   const handleLogout = () => {
     // Perform logout logic here (e.g., clearing auth tokens)
-    onLogout(); // Call the passed onLogout function
-    navigate('/login'); // Redirect to the login page
+    navigate('/'); // Redirect to the login page
   };
 
   return (
@@ -26,7 +25,7 @@ const NavBar = ({ userName, onLogout }) => {
           <Nav.Link href="#" className="bell-icon">
             <FaBell />
           </Nav.Link>
-          <Button variant="danger" onClick={handleLogout} className="logout-button">
+          <Button type ="submit" variant="danger" onSubmit={handleLogout} className="logout-button">
             Logout
           </Button>
         </Nav>
