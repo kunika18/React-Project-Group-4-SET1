@@ -4,13 +4,18 @@ import { FaBell } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './NavBar.css'; // Import custom CSS
+import { ToastContainer, toast } from 'react-toastify';
 
 const NavBar = ({ userName, onLogout }) => {
   const navigate = useNavigate();
+  const notify = () => toast("Successfully Logged out");
 
   const handleLogout = () => {
-    // Perform logout logic here (e.g., clearing auth tokens)
-    navigate('/'); // Redirect to the login page
+    e.preventDefault(); // Prevent the default form submission
+    notify();
+    setTimeout(() => {
+      navigate('/');
+  }, 500);
   };
 
   return (
