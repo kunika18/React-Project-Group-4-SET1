@@ -4,7 +4,7 @@
 }
 .table {
     width: 100%; /* Adjust the width as needed */
-    margin-left: 50px ; /* Center the table horizontally */
+    margin-left: 5px ; /* Center the table horizontally */
     color: #212529;
     background-color: transparent;
     border-collapse: collapse;
