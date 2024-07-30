@@ -2,7 +2,7 @@
  
 .sidebar-container {
     display: flex;
-    width: 750px;
+    width: 350px;
   }
   
   .sidebar {
@@ -16,7 +16,7 @@
     color: #fff;
     display: flex;
     align-items: center;
-    padding: 100px;
+    padding: 20px;
   }
   
   .nav-item {
