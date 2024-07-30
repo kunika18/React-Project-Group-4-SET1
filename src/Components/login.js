@@ -34,8 +34,9 @@ export const Login = () => {
           <input type="password" id="password" name="password" required />
         </div>
         <button type="submit">Login</button>
+        <h5 id="pink">Not a user? Click here <button type="button" onClick={handleSignUp}>Sign up</button></h5>
       </form>
-      <h5 id="pink">Not a user? Click here <button type="button" onClick={handleSignUp}>Sign up</button></h5>
+      
       <ToastContainer />
     </div>
   );
