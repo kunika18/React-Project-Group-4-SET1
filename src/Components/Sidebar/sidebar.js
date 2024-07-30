@@ -10,7 +10,7 @@ function Sidebar() {
       <div className='bg-dark sidebar min-vh-100 d-flex flex-column justify-content-between'>
         <div>
           <a className='sidebar-brand text-decoration-none text-white d-flex align-items-center ms-3 mt-2'>
-            <i className='fs-4 bi bi-speedometer'></i>
+            <i className='fs-4 bi '></i>
             <span className='ms-1 fs-4'>Profile</span>
           </a>
           <hr className='text-secondary' />
